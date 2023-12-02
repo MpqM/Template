@@ -42,9 +42,9 @@
 
 #### ⚪ Getting Started
 ```bash
-# Prerequisites: npm, node, MongoDB Connection URL
+# Prerequisites:
 # execution
-git clone https://github.com/MpqM/WebApp_OTT.git
+git clone https://github.com/MpqM/{repository}
 # backend
 cd server
 # Change the MONGO_CONNECTION_STRING value in the server/.env file with yours
@@ -59,19 +59,9 @@ npm start
 - - -
 
 #### ⚪ Description 
-* ##### User
-    * ##### 회원가입, 로그인, 로그아웃, 인증정보가져오기, 삭제, 수정, 조회, 전체조회, 쿼리를 통한 월별 유저 가입수 통계
-    * ##### 세션 인증 방식을 이용한 사용자 인증 + 로그인, 로그아웃, 회원가입, NAVBAR에서 사용자 이름, 프로필 사진 출력
-    * ##### react-hook을 이용한 커스텀 유효성검증 로그인, 회원가입용 Form 객체 구현
-    * ##### react-router-dom 이용해 라우팅 구현, 삼항연산자 조건식을 사용해 사용자 인증시에만 서비스 이용가능하게 만듬
-* ##### Content
-   * ##### 삭제, 생성, 쿼리(type & genre)를 통한 조회 기능
-   * ##### 넷플릭스의 슬라이드를 구현하기 위해 Movie를 타입 + 장르별로 배열로 만들어 저장
-   * ##### 프론트엔드에서 이중배열로 데이터가 API호출이 나와서 자식배열의 MovieId를 추출하는 로직 구현
-   * ##### 장르가 선택되지 않으면 셔플 알고리즘을 통해 가지고 있는 모든 영화를 무작위로 배열
-* ##### Movie
-    * ##### 삭제, 작성, 수정, 쿼리를 통한 조회($type, $name)
-    * ##### 캐러셀을 이용한 Movie 슬라이더 생성
+* ##### {엔티티}
+    * ##### {기능구현설명}
+
 
 - - -
 
